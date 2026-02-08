@@ -1,5 +1,5 @@
 {
-  "name": "dev-envspec",
+  "name": "dev-jambar",
   "image": "mcr.microsoft.com/devcontainers/base:bookworm",
   "features": {
     "ghcr.io/devcontainers/features/common-utils:2": {

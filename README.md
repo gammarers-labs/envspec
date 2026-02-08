@@ -1,4 +1,4 @@
-# EnvSpec
+# Jambar
 
 A TypeScript library for reading and parsing environment variables with types. Use `getEnv(key, spec)` to read env vars as string, number, boolean, or enum. Throws if a variable is missing and no default is provided.
 
@@ -7,19 +7,19 @@ A TypeScript library for reading and parsing environment variables with types. U
 **npm:**
 
 ```bash
-npm install envspec
+npm install jambar
 ```
 
 **yarn:**
 
 ```bash
-yarn add envspec
+yarn add jambar
 ```
 
 ## Usage
 
 ```typescript
-import { getEnv } from 'envspec';
+import { getEnv } from 'jambar';
 
 // String (required when no default)
 const apiKey = getEnv('API_KEY', { type: 'string' });
