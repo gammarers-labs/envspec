@@ -1,8 +1,8 @@
 {
-  "name": "envspec",
+  "name": "jambar",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gammarers-labs/envspec.git"
+    "url": "https://github.com/gammarers-labs/jambar.git"
   },
   "scripts": {
     "build": "npx projen build",

@@ -1,12 +1,12 @@
 import { typescript, javascript, github } from 'projen';
 const project = new typescript.TypeScriptProject({
   defaultReleaseBranch: 'main',
-  name: 'envspec',
+  name: 'jambar',
   projenrcTs: true,
   authorName: 'yicr',
   authorEmail: 'yicr@users.noreply.github.com',
   typescriptVersion: '5.9.x',
-  repository: 'https://github.com/gammarers-labs/envspec.git',
+  repository: 'https://github.com/gammarers-labs/jambar.git',
   releaseToNpm: true,
   // npmTrustedPublishing: true,
   npmAccess: javascript.NpmAccess.PUBLIC,
