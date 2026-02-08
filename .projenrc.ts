@@ -7,7 +7,7 @@ const project = new typescript.TypeScriptProject({
   authorEmail: 'yicr@users.noreply.github.com',
   typescriptVersion: '5.9.x',
   repository: 'https://github.com/gammarers-labs/envspec.git',
-  releaseToNpm: false,
+  releaseToNpm: true,
   // npmTrustedPublishing: true,
   npmAccess: javascript.NpmAccess.PUBLIC,
   minNodeVersion: '20.0.0',
@@ -15,7 +15,7 @@ const project = new typescript.TypeScriptProject({
   depsUpgradeOptions: {
     workflowOptions: {
       labels: ['auto-approve', 'auto-merge'],
-      // schedule: javascript.UpgradeDependenciesSchedule.WEEKLY,
+      schedule: javascript.UpgradeDependenciesSchedule.WEEKLY,
     },
   },
   githubOptions: {
